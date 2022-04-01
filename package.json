@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "Main.js",
-
   "scripts": {
-    "start": "node server.js"
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vrushalishivsharan19/First-SDK.git"
@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/vrushalishivsharan19/First-SDK/issues"
   },
-  "homepage": "https://github.com/vrushalishivsharan19/First-SDK#readme"
+  "homepage": "https://github.com/vrushalishivsharan19/First-SDK#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "server": "^1.0.37",
+    "socket.io": "^4.4.1"
+  }
 }
