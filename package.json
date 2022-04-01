@@ -13,10 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/vrushalishivsharan19/First-SDK.git"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
-
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
 
   
   "bugs": {
