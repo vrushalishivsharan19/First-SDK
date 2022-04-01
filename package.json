@@ -5,7 +5,10 @@
   "main": "Main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "client": "cd First-SDK && npm start",
+    "dev": "concurrently \" npm run server  \" \" npm run client\"",
+    "heroku-postbuild": "cd First-SDK && npm install && npm run build"
     
   },
   "repository": {
